@@ -1,7 +1,147 @@
-.head{
-    background: #9CB697;
+.body{
+    background: #0D1925;
+    transition: all 1s;
 }
 
-.container{
+.head{
+    margin-top:27px;
+}
+
+.head-title-h2-head{
+    color: #000;
+    text-align: center;
+    font-family: Iceland;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 92px;
+    height: 467px;
+    flex-shrink: 0;
+    word-wrap: break-word;
     
+
+}
+.head-title-div-head{
+    position: absolute;
+    transition: all 0.5s ;
+    border-radius: 61px;
+    border: 1px solid #656;
+    background: #D9D9D9;  
+    width: 154px;
+    height: 968px;
+    flex-shrink: 0;
+    top: 20px;
+    margin-left: 27px;
+    padding-top: 80px;
+    padding-bottom: 121px;
+    padding-left: 30px;
+    padding-right: 32px;
+}
+
+.head-title-div-head:hover {
+    background: #FAA526;
+    width: 154px;
+    height: 968px;
+
+}
+
+.head-title-h3-head{
+    color: #FFF;
+    text-align: center;
+    font-family: Iceland;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+.head-title-h2-carman{  
+    color: #000;
+    text-align: center;
+    font-family: Iceland;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 64px;
+    border: 1px solid #000;
+    background: #FAA526;
+    width: 842px;
+    height: 325px;
+    flex-shrink: 0;
+    padding-top: 17px;
+    padding-left: 36px;
+    padding-right: 37px;
+    transition: all 1s;
+}
+
+.head-title-div-carman{
+    margin-left: 970px;
+    margin-top: 335px;
+}
+
+.head-title-div-carman-ower{
+    position: absolute;
+    left: 965px;
+    transform: translateY(-90%);
+    width: 858px;
+    height: 312px;
+    flex-shrink: 0; 
+    border-radius: 43px;
+    background: #112436;
+    transition: all 1s;
+}
+
+.head-title-div-carman:hover .head-title-h2-carman{
+    transform: translateY(-30%);
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    flex-shrink: 0;
+    background: #112436;
+    margin-top: 28px;
+}
+
+.footer-title-h4{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Iceland;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 195px;
+    margin-left: 80%;
+}
+
+.footer-title-h2{
+    margin-top:30px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Iceland;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-title-h5{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Iceland;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 286px;
+    height: 16px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    flex-shrink: 0;
+    margin-left: 43%;
 }
